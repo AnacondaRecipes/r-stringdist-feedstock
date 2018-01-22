@@ -10,8 +10,8 @@ package:
 source:
   fn: stringdist_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/stringdist_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/stringdist/stringdist_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/stringdist_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/stringdist/stringdist_{{ version }}.tar.gz
   sha256: 91c1ddee426ee246f92dd12ae746ea114e123fbfb32a4708ee29db51323cab48
 
 
